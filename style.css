@@ -99,7 +99,7 @@ li {
 
 /*2. Cover*/
 
-.cover {
+.cover-container {
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -117,7 +117,7 @@ li {
 	filter: brightness(45%);*/
 }
 
-.coverimage {
+.cover-container__cover-image {
 	background-image: /*linear-gradient(to top, orange,
 		30%, transparent),*/ url(img/cover.jpg);
 	background-repeat: no-repeat;
@@ -128,7 +128,7 @@ li {
 	filter: brightness(75%);
 }
 
-.header {
+.cover-container__header {
 	position: absolute;
 	text-align: center;
 	font-size: 1.2rem;
@@ -137,19 +137,19 @@ li {
 	animation: fadeIn ease-in 2s;
 }
 
-.header h2 {
+.cover-container__header h2 {
 	font-size: 2.6rem;
 	font-weight: normal;
 	margin-bottom: 0;
 }
 
-.header p {
+.cover-container__header p {
 	font-size: 1.3rem;
 	line-height: 2rem;
 	letter-spacing: 0.01rem;
 }
 
-.btn {
+.cover-container__btn-container {
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
@@ -158,11 +158,11 @@ li {
 	max-width: 80%;
 }
 
-.btn a {
+.cover-container__btn-container a {
 	text-decoration: none;
 }
 
-.btn1,.btn2 {
+.cover-container__btn-container__btn {
 	display: inline-block;
 	margin-top: 1rem;
 	padding: 1rem;
@@ -175,11 +175,11 @@ li {
 	transition: 1s;
 }
 
-.btn1:hover {
+.cover-container__btn-container__btn--tca:hover {
 	background-color: #358088;
 }
 
-.btn2:hover {
+.cover-container__btn-container__btn--dca:hover {
 	background-color: #DA3910;
 }
 
@@ -194,17 +194,17 @@ li {
 
 /*3. Value*/
 
-h1 {
+.value-container h1 {
 	text-align: center;
 	padding: 1rem;
 }
 
-.values {
+.value-container__all-values-container {
 	display: flex;
 	justify-content: center;
 }
 
-.value {
+.value-container__all-values-container__value {
 	text-align: center;
 	font-size: 1.2rem;
 	width: 30rem;
@@ -212,7 +212,7 @@ h1 {
 	padding: 1rem;
 }
 
-.ivalue1 {
+.value-container__all-values-container__value__image-one {
 	background-image: url(img/hangout.svg);
 	background-repeat: no-repeat;
 	background-size: 100% 100%;
@@ -220,7 +220,7 @@ h1 {
 	height: 28vh;
 }
 
-.ivalue2 {
+.value-container__all-values-container__value__image-two {
 	background-image: url(img/watching.svg);
 	background-repeat: no-repeat;
 	background-size: 100% 100%;
@@ -228,7 +228,7 @@ h1 {
 	height: 28vh;
 }
 
-.ivalue3 {
+.value-container__all-values-container__value__image-three {
 	background-image: url(img/havingfun.svg);
 	background-repeat: no-repeat;
 	background-size: 100% 100%;
@@ -239,14 +239,14 @@ h1 {
 
 /*4. Empathy */
 
-.empathy {
+.empathy-container {
 	display: flex;
 	justify-content: space-around;
 	align-items: center;
 	padding: 2rem;
 }
 
-.empa1 {
+.empathy-container__header-image {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
@@ -257,7 +257,7 @@ h1 {
 	/*min-width: 40%;*/
 }
 
-.iempa {
+.empathy-container__header-image__image {
 	background-image: url(img/empath.jpg);
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -268,11 +268,7 @@ h1 {
 	border-radius: 0.2rem;
 }
 
-.cont {
-	display: flex;
-}
-
-.empa2 {
+.empathy-container__text {
 	font-size: 1.5rem;
 	padding: 1rem;
 	width: 40vw;
