@@ -281,6 +281,83 @@ h1 {
 }
 
 
+/*5. Testimonials*/
+
+.testimonials-container {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	/*height: 95vh;*/
+	/*with height inner elements overlap the container*/
+	background-color: var(--white);
+}
+
+.testimonials-container__testimonial {
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+	width: 80vw;
+	/*no height otherwise text overlaps*/
+	padding-top: 3rem;
+	/*padding: 2.5rem;*/
+	margin: 1rem 0;
+	border-radius: 3px;
+}
+
+.testimonials-container__testimonial--one {
+	background: linear-gradient(to right bottom, var(--light-gray)
+		50%, transparent);
+}
+
+.testimonials-container__testimonial--two {
+	background: linear-gradient(to left bottom, var(--light-gray)
+		50%, transparent);
+}
+
+.testimonials-container__testimonial__image {
+	background-image: url(img/cover.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	height: 15rem;
+	width: 15rem;
+	border-radius: 50%;
+	margin-bottom: 3rem;
+	/*transform: translateY(-1rem);*/
+}
+
+.testimonials-container__testimonial__text-signa {
+	display: flex;
+	flex-direction: column;
+	width: 50vw;
+}
+
+.testimonials-container__testimonial__text-signa__text {
+	font-size: 1.5rem;
+	font-style: italic;
+	line-height: 2.5rem;
+}
+
+.testimonials-container__testimonial__text-signa__signa {
+	font-size: 1.2rem;
+	color: #4F4F4F;
+}
+
+.testimonials-container__testimonial__text-signa__signa h4 {
+	margin-bottom: -1rem;
+}
+
+.testimonials-container__testimonial__text-signa__signa--one {
+	align-self: flex-end;
+}
+
+.testimonials-container__testimonial__text-signa__signa--two {
+	align-self: flex-start;
+}
+
+
+
 /*6. Plan*/
 
 .plan-container__header {
