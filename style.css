@@ -128,7 +128,7 @@ li {
 	filter: brightness(75%);
 }
 
-.cover-container__header {
+.cover-header {
 	position: absolute;
 	text-align: center;
 	font-size: 1.2rem;
@@ -137,19 +137,19 @@ li {
 	animation: fadeIn ease-in 2s;
 }
 
-.cover-container__header h2 {
+.cover-header h2 {
 	font-size: 2.6rem;
 	font-weight: normal;
 	margin-bottom: 0;
 }
 
-.cover-container__header p {
+.cover-header p {
 	font-size: 1.3rem;
 	line-height: 2rem;
 	letter-spacing: 0.01rem;
 }
 
-.cover-container__btn-container {
+.cover-btn-container {
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
@@ -158,11 +158,11 @@ li {
 	max-width: 80%;
 }
 
-.cover-container__btn-container a {
+.cover-btn-container a {
 	text-decoration: none;
 }
 
-.cover-container__btn-container__btn {
+.cover-btn-container__btn {
 	display: inline-block;
 	margin-top: 1rem;
 	padding: 1rem;
@@ -175,11 +175,11 @@ li {
 	transition: 1s;
 }
 
-.cover-container__btn-container__btn--tca:hover {
+.cover-btn-container__btn--tca:hover {
 	background-color: #358088;
 }
 
-.cover-container__btn-container__btn--dca:hover {
+.cover-btn-container__btn--dca:hover {
 	background-color: #DA3910;
 }
 
@@ -199,12 +199,12 @@ li {
 	padding: 1rem;
 }
 
-.value-container__all-values-container {
+.all-values-container {
 	display: flex;
 	justify-content: center;
 }
 
-.value-container__all-values-container__value {
+.value-block {
 	text-align: center;
 	font-size: 1.2rem;
 	width: 30rem;
@@ -212,7 +212,7 @@ li {
 	padding: 1rem;
 }
 
-.value-container__all-values-container__value__image-one {
+.value-block__image-one {
 	background-image: url(img/hangout.svg);
 	background-repeat: no-repeat;
 	background-size: 100% 100%;
@@ -220,7 +220,7 @@ li {
 	height: 28vh;
 }
 
-.value-container__all-values-container__value__image-two {
+.value-block__image-two {
 	background-image: url(img/watching.svg);
 	background-repeat: no-repeat;
 	background-size: 100% 100%;
@@ -228,7 +228,7 @@ li {
 	height: 28vh;
 }
 
-.value-container__all-values-container__value__image-three {
+.value-block__image-three {
 	background-image: url(img/havingfun.svg);
 	background-repeat: no-repeat;
 	background-size: 100% 100%;
@@ -246,7 +246,7 @@ li {
 	padding: 2rem;
 }
 
-.empathy-container__header-image {
+.empathy-header-image-container {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
@@ -257,7 +257,7 @@ li {
 	/*min-width: 40%;*/
 }
 
-.empathy-container__header-image__image {
+.empathy-header-image-container__image {
 	background-image: url(img/empath.jpg);
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -311,7 +311,9 @@ li {
 		50%, transparent);
 }
 
-.testimonials-container__testimonial__image {
+.testimonials-container__testimonial__image-one,
+.testimonials-container__testimonial__image-two,
+.testimonials-container__testimonial__image-three {
 	background-image: url(img/cover.jpg);
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -358,6 +360,7 @@ li {
 
 .plan-container__header {
 	font-size: 1.3rem;
+	text-align: center;
 }
 
 .plan-container__steps-container {
@@ -409,6 +412,7 @@ li {
 
 .agreement-container__header {
 	font-size: 1.3rem;
+	text-align: center;
 }
 
 .agreement-container__header h1 {
