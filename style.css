@@ -289,6 +289,10 @@ li {
 	background-color: var(--white);
 }
 
+.testimonials-container__header {
+	font-size: 2.5rem;
+}
+
 .each-testimonial-container {
 	display: flex;
 	justify-content: space-evenly;
@@ -363,14 +367,14 @@ li {
 	text-align: center;
 }
 
-.plan-container__steps-container {
+.steps-container {
 	display: flex;
 	justify-content: space-evenly;
 	/*max-width: 80%;
 	margin: 0 auto;*/
 }
 
-.plan-container__steps-container__step {
+.each-step-block {
 	text-align: center;
 	padding: 1.5rem 1rem 3rem;
 	width: 30rem;
@@ -380,9 +384,9 @@ li {
 	align-items: center;*/
 }
 
-.plan-container__steps-container__step__image-one,
-.plan-container__steps-container__step__image-two,
-.plan-container__steps-container__step__image-three {
+.each-step-block__image-one,
+.each-step-block__image-two,
+.each-step-block__image-three {
 	background-image: url(img/cover.jpg);
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -393,7 +397,7 @@ li {
 	/*max-width: 75%;*/
 }
 
-.plan-container__steps-container__step__text {
+.each-step-block__text {
 	padding: 2rem 0;
 }
 
@@ -420,40 +424,40 @@ li {
 }
 
 
-.agreement-container__inner {
+.agreement-points-image-container {
 	display: flex;
 	justify-content: space-evenly;
 	align-items: center;
 	padding: 3rem 0 6rem
 }
 
-.agreement-container__inner__all-icons-text {
+.agreement-points-container {
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
 	font-size: 1.9rem;
 }
 
-.agreement-container__inner__each-icon-text {
+.each-point-container {
 	display: flex;
 	align-items: center;
 	font-weight: 400;
 	padding: 0.8rem;
 }
 
-.agreement-container__inner__each-icon-text i {
+.each-point-container i {
 	color: var(--tint-blue);
 	padding-bottom: 0.3rem;
 }
 
-.agreement-container__inner__each-icon-text__text {
+.each-point-container__text {
 	margin-left: 1rem;
 	padding-bottom: 0.2rem;
 	border-bottom: 2px solid;
 	border-color: var(--mid-blue);
 }
 
-.agreement-container__inner__image-container {
+.agreement-image-container {
 	transform: skew(10deg);
 	overflow: hidden;
 	box-shadow: 0px 0px 4px 3px rgba(0,0,0,0.5);
@@ -475,7 +479,7 @@ li {
 	}
 }*/
 
-.agreement-container__inner__image-container__image {
+.agreement-image-container__image {
 	background-image: url(img/cover.jpg);
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -572,7 +576,7 @@ li {
 	filter: blur(0.5rem);
 }
 
-.cs-container__inner {
+.cs-cta-container {
 	position: absolute;
 	display: flex;
 	flex-direction: column;
@@ -583,13 +587,13 @@ li {
 	color: #FFFFFF;
 }
 
-.cs-container__inner__heading-text {
+.cs-cta-container__header {
 	font-size: 3rem;
 	width: 40vw;
 	text-align: center;
 }
 
-.cs-container__inner__border {
+.cs-cta-container__border {
 	height: 0.5rem;
 	width: 50vw;
 	background-color: #DA3910;
@@ -601,29 +605,29 @@ li {
 	text-align: center;
 }
 
-.cs-container__inner__input-box {
+.cs-input-container {
 	display: flex;
 	align-items: center;
 }
 
-.cs-container__inner__input-box__email label {
+.cs-input-container__email label {
 	font-size: 1.4rem;
 	padding: 0.5rem;
 }
 
-.cs-container__inner__input-box__email input {
+.cs-input-container__email input {
 	height: 3.4rem;
 	width: 20rem;
 	border-color: white;
 }
 
-.cs-container__inner__input-box__email input:focus {
+.cs-input-container__email input:focus {
 	outline: none;
 	border-style: solid;
 	border-color: #DA3910;
 }
 
-.cs-container__inner__input-box__button {
+.cs-input-container__button {
 	background-color: #DA3910;
 	text-align: center;
 	padding: 1rem 2rem;
@@ -636,12 +640,12 @@ li {
 	transition: 0.1s;
 }
 
-.cs-container__inner__input-box__button a {
+.cs-input-container__button a {
 	text-decoration: none;
 	color: #FFFFFF;
 }
 
-.cs-container__inner__input-box__button:hover {
+.cs-input-container__button:hover {
 	transform: scale(1.03);
 }
 
@@ -686,33 +690,33 @@ li {
 	border-color: #FFEE00;
 }
 
-.footer-container__icons-contact {
+.footer-icons-contact-container {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
 	width: 20vw;
 }
 
-.footer-container__icons-contact__icons {
+.footer-icons-contact-container__icons {
 	font-size: 2.8rem;
 	padding-bottom: 1rem;
 }
 
-.footer-container__icons-contact__icons i {
+.footer-icons-contact-container__icons i {
 	color: var(--mid-blue);
 }
 
-.footer-container__icons-contact__icons i:hover {
+.footer-icons-contact-container__icons i:hover {
 	color: #FFEE00;
 }
 
-.footer-container__icons-contact__contact {
+.footer-icons-contact-container__contact {
 	font-size: 1.3rem;
 	text-align: center;
 	line-height: 2rem;
 }
 
-.allrights {
+.all-rights {
 	text-align: center;
 	font-size: 1.1rem;
 }
