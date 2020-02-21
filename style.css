@@ -724,7 +724,7 @@ li {
 
 
 
-Smartphones
+/*Smartphones
 
 @media(max-width: 42rem) {
 	.navbar {
@@ -746,83 +746,7 @@ Smartphones
 	.cover {
 		margin-top: -12.2rem;
 	}
-}
-
-
-
-
-
-/*WORKS!!!!!!!*/
-
-.zfulltestimonial__container {
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	align-items: center;
-	/*height: 95vh;*/
-	/*with height inner elements overlap the container*/
-	background-color: var(--white);
-}
-
-.zfulltestimonial, .zfulltestimonial2 {
-	display: flex;
-	justify-content: space-evenly;
-	align-items: center;
-	width: 80vw;
-	/*no height otherwise text overlaps*/
-	padding-top: 3rem;
-	/*padding: 2.5rem;*/
-	margin: 1rem 0;
-	border-radius: 3px;
-	background: linear-gradient(to right bottom, var(--light-gray)
-		50%, transparent);
-}
-
-/*.zfulltestimonial2 {
-	background: linear-gradient(to left bottom, var(--light-gray)
-		50%, transparent);
 }*/
-
-.zitest2 {
-	background-image: url(img/cover.jpg);
-	background-repeat: no-repeat;
-	background-size: cover;
-	background-position: center;
-	height: 15rem;
-	width: 15rem;
-	border-radius: 50%;
-	margin-bottom: 3rem;
-	/*transform: translateY(-1rem);*/
-}
-
-.ztestimonial {
-	display: flex;
-	flex-direction: column;
-	width: 50vw;
-}
-
-.ztestimonialtext {
-	font-size: 1.5rem;
-	font-style: italic;
-	line-height: 2.5rem;
-}
-
-.zsigna1, .zsigna2 {
-	font-size: 1.2rem;
-	color: #4F4F4F;
-}
-
-.zsigna1 h4, .zsigna2 h4 {
-	margin-bottom: -1rem;
-}
-
-.zsigna1 {
-	align-self: flex-end;
-}
-
-.zsigna2 {
-	align-self: flex-start;
-}
 
 
 
