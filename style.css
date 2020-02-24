@@ -554,45 +554,21 @@ li {
 	background: #00000020;
 }
 
-.aversion__text--style:before {
+.aversion-container__text--style:before {
 	content: open-quote;
 }
 
-.aversion__text--style:after {
+.aversion-container__text--style:after {
 	content: close-quote;
 }
 
 
 /*9*/
-.gap {
-	height: 50vh;
-	width: 80vw;
-	border: 1px solid black;
-	display: flex;
-	justify-content: space-around;
-}
-
-/*.goe {
-	display: flex;
-	flex-direction: column;
-}*/
-
-.some1 {
-	height: 30vh;
-	width: 5vw;
-	border: 1px solid black;
-}
-
-.some2 {
-	height: 40vh;
-	width: 20vw;
-	border: 1px solid black;
-}
 
 /*empty container*/
 
 .empty-container {
-	height: 20vh;
+	height: 15vh;
 }
 
 .empty-container--shade {
@@ -617,7 +593,7 @@ li {
 	background-position: center;
 	height: 80vh;
 	width: 100vw;
-	filter: blur(0.5rem);
+	filter: blur(0.3rem) brightness(80%);
 }
 
 .cs-cta-container {
