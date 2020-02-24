@@ -855,6 +855,7 @@ li {
 	.each-testimonial-container__image-three {
 		height: 12rem;
 		width: 12rem;
+		background-attachment: fixed;
 	}
 
 	.text-signa-container__signa--one {
